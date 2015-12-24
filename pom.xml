@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <!-- Baseline Jenkins version used to build and test the plugin. Users must have this version or newer to run. -->
+        <version>1.580.1</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>cisco-spark</artifactId>
+    <version>0.1</version>
+    <packaging>hpi</packaging>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.7</source>
+                    <target>1.7</target>
+                    <showDeprecation>true</showDeprecation>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+    <name>Cisco Spark Notification Plugin</name>
+    <description>A Jenkins CI plugin for posting notifications to Cisco Spark</description>
+    <url>https://github.com/umnagendra/cisco-spark-plugin</url>
+    <inceptionYear>2015</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>The Unlicense</name>
+            <url>http://unlicense.org/</url>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <id>umnagendra</id>         <!-- This is the jenkins-ci.org username, not GitHub username -->
+            <name>Nagendra U M</name>
+            <email>umnagendra@gmail.com</email>
+            <url>http://github.com/umnagendra</url>
+            <roles>
+                <role>architect</role>
+                <role>developer</role>
+                <role>maintainer</role>
+            </roles>
+            <timezone>Asia/Kolkata</timezone>
+        </developer>
+    </developers>
+
+    <repositories>
+        <repository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>repo.jenkins-ci.org</id>
+            <url>http://repo.jenkins-ci.org/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <issueManagement>
+        <url>https://github.com/umnagendra/cisco-spark-plugin/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+
+    <scm>
+        <url>https://github.com/umnagendra/cisco-spark-plugin</url>
+        <connection>scm:git:git://github.com/umnagendra/cisco-spark-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:umnagendra/cisco-spark-plugin.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
+</project>
