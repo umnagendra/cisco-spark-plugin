@@ -40,7 +40,7 @@
 
     <name>Cisco Spark Notification Plugin</name>
     <description>A Jenkins CI plugin for posting notifications to Cisco Spark</description>
-    <url>https://github.com/umnagendra/cisco-spark-plugin</url>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/Cisco+Spark+Plugin</url>
     <inceptionYear>2015</inceptionYear>
 
     <licenses>
@@ -55,7 +55,7 @@
             <id>umnagendra</id>         <!-- This is the jenkins-ci.org username, not GitHub username -->
             <name>Nagendra U M</name>
             <email>umnagendra@gmail.com</email>
-            <url>http://github.com/umnagendra</url>
+            <url>https://github.com/umnagendra</url>
             <roles>
                 <role>architect</role>
                 <role>developer</role>
